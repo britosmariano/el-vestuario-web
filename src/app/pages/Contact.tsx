@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Instagram } from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -236,6 +236,20 @@ export function Contact() {
               </h2>
 
               <div className="space-y-6 mb-12">
+              <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-neutral-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Instagram className="w-6 h-6 text-neutral-900" />
+                  </div>
+                  <div>
+                    <h3 className="mb-1 text-neutral-900">
+                      Instagram
+                    </h3>
+                    <p className="text-neutral-600">
+                      @articulosdeportivoselvestuario
+                    </p>
+                  </div>
+                </div>
+
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-neutral-100 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-neutral-900" />
