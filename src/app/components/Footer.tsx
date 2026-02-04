@@ -17,7 +17,7 @@ export function Footer() {
                 alt="El Vestuario logo"
                 className="w-8 h-8 object-contain"
               />
-              <span className="text-xl tracking-tight">
+              <span className="text-xl tracking-tight tracking-wide" style={{ fontFamily: '"Bebas Neue", sans-serif' }}>
                 El Vestuario
               </span>
             </Link>
@@ -74,7 +74,7 @@ export function Footer() {
                 <p className="flex items-center gap-2">
                   <img
                     src={`${import.meta.env.BASE_URL}/images/logo-sport.png`}
-                    alt="El Vestuario logo"
+                    alt="El Vestuario sport logo"
                     className="w-8 h-8 object-contain"
                   />
                   <span className="text-white font-bold">
@@ -87,7 +87,7 @@ export function Footer() {
                 <p className="flex items-center gap-2">
                   <img
                       src={`${import.meta.env.BASE_URL}/images/logo-work.png`}
-                      alt="El Vestuario logo"
+                      alt="El Vestuario work logo"
                       className="w-8 h-8 object-contain"
                       />
                   <span className="text-white font-bold">

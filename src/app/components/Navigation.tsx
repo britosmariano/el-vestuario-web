@@ -26,10 +26,10 @@ export function Navigation() {
             <img
               src={`${import.meta.env.BASE_URL}images/logo.png`}
               alt="El Vestuario logo"
-              className="w-8 h-8 object-contain"
+              className="w-12 h-12 object-contain"
             />
-            <span className="text-xl md:text-2xl tracking-tight text-neutral-900">
-              El Vestuario
+            <span className="text-3xl md:text-3xl tracking-wide text-neutral-900" style={{ fontFamily: '"Bebas Neue", sans-serif' }}>
+              EL VESTUARIO
             </span>
           </Link>
 
