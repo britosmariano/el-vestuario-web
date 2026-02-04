@@ -29,11 +29,12 @@ export function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-2xl text-white"
           >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight font-bebas">
               El Vestuario
             </h1>
             <p className="text-xl md:text-2xl text-neutral-200 mb-8 leading-relaxed">
-              Indumentaria para rendir al máximo
+              <span>Indumentaria y equipamiento </span>
+              <span className="font-bold">para rendir al máximo</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
