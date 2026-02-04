@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/el-vestuario-web/',
   resolve: {
     alias: {
       // Alias @ to the src directory

@@ -94,7 +94,7 @@ export function Home() {
 
               <div className="relative h-full p-8 flex flex-col justify-end text-white">
                 <img
-                  src="/images/logo-sport-sin-fondo.png"
+                  src={`${import.meta.env.BASE_URL}/images/logo-sport-sin-fondo.png`}
                   alt="El Vestuario logo"
                   className="w-8 h-8 object-contain"
                 />
@@ -131,7 +131,7 @@ export function Home() {
 
               <div className="relative h-full p-8 flex flex-col justify-end text-white">
                 <img
-                    src="/images/logo-work-sin-fondo.png"
+                    src={`${import.meta.env.BASE_URL}/images/logo-work-sin-fondo.png`}
                     alt="El Vestuario logo"
                     className="w-8 h-8 object-contain"
                   />

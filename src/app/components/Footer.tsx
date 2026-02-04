@@ -13,7 +13,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/images/logo.png"
+                src={`${import.meta.env.BASE_URL}/images/logo.png`}
                 alt="El Vestuario logo"
                 className="w-8 h-8 object-contain"
               />
@@ -73,7 +73,7 @@ export function Footer() {
               <li className="text-neutral-400">
                 <p className="flex items-center gap-2">
                   <img
-                    src="/images/logo-sport.png"
+                    src={`${import.meta.env.BASE_URL}/images/logo-sport.png`}
                     alt="El Vestuario logo"
                     className="w-8 h-8 object-contain"
                   />
@@ -86,7 +86,7 @@ export function Footer() {
               <li className="text-neutral-400">
                 <p className="flex items-center gap-2">
                   <img
-                      src="/images/logo-work.png"
+                      src={`${import.meta.env.BASE_URL}/images/logo-work.png`}
                       alt="El Vestuario logo"
                       className="w-8 h-8 object-contain"
                       />
