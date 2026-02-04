@@ -12,7 +12,11 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <ShoppingBag className="w-8 h-8" />
+              <img
+                src="/images/logo.png"
+                alt="El Vestuario logo"
+                className="w-8 h-8 object-contain"
+              />
               <span className="text-xl tracking-tight">
                 El Vestuario
               </span>
@@ -67,15 +71,29 @@ export function Footer() {
             <h3 className="mb-4">Nuestras Líneas</h3>
             <ul className="space-y-3 text-sm">
               <li className="text-neutral-400">
-                <span className="text-[#B1D046] font-bold">
-                  Sport:
-                </span>{" "}
+                <p className="flex items-center gap-2">
+                  <img
+                    src="/images/logo-sport.png"
+                    alt="El Vestuario logo"
+                    className="w-8 h-8 object-contain"
+                  />
+                  <span className="text-[#B1D046] font-bold">
+                      Sport:
+                  </span>{" "}
+                </p>
                 Indumentaria y artículos deportivos
               </li>
               <li className="text-neutral-400">
-                <span className="text-[#2B527F] font-bold">
-                  Work:
-                </span>{" "}
+                <p className="flex items-center gap-2">
+                  <img
+                      src="/images/logo-work.png"
+                      alt="El Vestuario logo"
+                      className="w-8 h-8 object-contain"
+                      />
+                  <span className="text-[#2B527F] font-bold">
+                    Work:
+                  </span>{" "}
+                </p>
                 Uniformes y equipamiento profesional
               </li>
             </ul>

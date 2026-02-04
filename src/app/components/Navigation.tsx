@@ -23,7 +23,11 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <ShoppingBag className="w-8 h-8 text-neutral-900 group-hover:text-neutral-700 transition-colors" />
+            <img
+              src="/images/logo.png"
+              alt="El Vestuario logo"
+              className="w-8 h-8 object-contain"
+            />
             <span className="text-xl md:text-2xl tracking-tight text-neutral-900">
               El Vestuario
             </span>

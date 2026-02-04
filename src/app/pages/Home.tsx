@@ -33,7 +33,7 @@ export function Home() {
               El Vestuario
             </h1>
             <p className="text-xl md:text-2xl text-neutral-200 mb-8 leading-relaxed">
-              Indumentaria para rendir
+              Indumentaria para rendir al máximo
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -93,7 +93,11 @@ export function Home() {
               </div>
 
               <div className="relative h-full p-8 flex flex-col justify-end text-white">
-                <Trophy className="w-12 h-12 mb-4" />
+                <img
+                  src="/images/logo-sport-sin-fondo.png"
+                  alt="El Vestuario logo"
+                  className="w-8 h-8 object-contain"
+                />
                 <h3 className="text-3xl mb-3">Sport</h3>
                 <p className="text-lg text-neutral-100 mb-6 leading-relaxed">
                   Todo lo que necesita un deportista
@@ -126,7 +130,11 @@ export function Home() {
               </div>
 
               <div className="relative h-full p-8 flex flex-col justify-end text-white">
-                <Briefcase className="w-12 h-12 mb-4" />
+                <img
+                    src="/images/logo-work-sin-fondo.png"
+                    alt="El Vestuario logo"
+                    className="w-8 h-8 object-contain"
+                  />
                 <h3 className="text-3xl mb-3">Work</h3>
                 <p className="text-lg text-neutral-100 mb-6 leading-relaxed">
                   Todo lo que necesita un trabajador
@@ -210,7 +218,7 @@ export function Home() {
               </div>
               <h3 className="mb-3">Durabilidad Garantizada</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Artículos de alta durabilidad que duran mas
+                Artículos de alta durabilidad que resisten el uso intensivo por mas
                 tiempo
               </p>
             </motion.div>
