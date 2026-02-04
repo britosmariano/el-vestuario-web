@@ -318,16 +318,16 @@ export function Contact() {
               </div>
 
               <div className="mt-8 grid grid-cols-2 gap-4">
-                <div className="bg-[#dcfce7] rounded-xl p-6 text-center border border-[#16a34a]/20">
-                  <h4 className="mb-2 text-[#15803d]">
+                <div className="bg-[#EEF4E3] rounded-xl p-6 text-center border border-[#16a34a]/20">
+                  <h4 className="mb-2 text-[#97B658] font-bold">
                     Línea Sport
                   </h4>
                   <p className="text-sm text-neutral-700">
                     Equipamiento deportivo
                   </p>
                 </div>
-                <div className="bg-[#dbeafe] rounded-xl p-6 text-center border border-[#2563eb]/20">
-                  <h4 className="mb-2 text-[#1e40af]">
+                <div className="bg-[#E9EFF5] rounded-xl p-6 text-center border border-[#2563eb]/20">
+                  <h4 className="mb-2 text-[#2B527F] font-bold">
                     Línea Work
                   </h4>
                   <p className="text-sm text-neutral-700">
