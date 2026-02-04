@@ -77,7 +77,7 @@ export function Footer() {
                     alt="El Vestuario logo"
                     className="w-8 h-8 object-contain"
                   />
-                  <span className="text-[#B1D046] font-bold">
+                  <span className="text-white font-bold">
                       Sport:
                   </span>{" "}
                 </p>
@@ -90,7 +90,7 @@ export function Footer() {
                       alt="El Vestuario logo"
                       className="w-8 h-8 object-contain"
                       />
-                  <span className="text-[#2B527F] font-bold">
+                  <span className="text-white font-bold">
                     Work:
                   </span>{" "}
                 </p>
