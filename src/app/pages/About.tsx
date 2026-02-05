@@ -173,8 +173,8 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="bg-white p-8 rounded-xl border border-neutral-200"
             >
-              <div className="w-16 h-16 bg-[#dcfce7] rounded-full flex items-center justify-center mb-6">
-                <Target className="w-8 h-8 text-[#16a34a]" />
+              <div className="w-16 h-16 bg-[#EFE9DD] rounded-full flex items-center justify-center mb-6">
+                <Target className="w-8 h-8 text-[#7A5C3E]" />
               </div>
               <h3 className="mb-3 text-neutral-900">Calidad</h3>
               <p className="text-neutral-600 leading-relaxed">
