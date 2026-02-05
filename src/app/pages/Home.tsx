@@ -16,7 +16,7 @@ export function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1646613798518-d87b000104bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdGhsZXRpYyUyMHdvbWFuJTIwcnVubmluZ3xlbnwxfHx8fDE3NzAxMjgzMDV8MA&ixlib=rb-4.1.0&q=80&w=1080)`,
+            backgroundImage: `url(https://img.freepik.com/foto-gratis/dos-hombres-camerino-gimnasio_329181-13273.jpg)`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent" />
@@ -41,6 +41,11 @@ export function Home() {
                 to="/sport"
                 className="inline-flex items-center justify-center gap-2 bg-[#B1D046] hover:bg-[#5F7F2A] text-white px-8 py-4 rounded-lg transition-all group"
               >
+                <img
+                  src={`${import.meta.env.BASE_URL}/images/logo-sport-sin-fondo.png`}
+                  alt="El Vestuario logo"
+                  className="w-8 h-8 object-contain"
+                />
                 Ver Línea Sport
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -48,6 +53,11 @@ export function Home() {
                 to="/work"
                 className="inline-flex items-center justify-center gap-2 bg-[#2B527F] hover:bg-[#1F3F63] text-white px-8 py-4 rounded-lg transition-all group"
               >
+                <img
+                  src={`${import.meta.env.BASE_URL}/images/logo-work-sin-fondo.png`}
+                  alt="El Vestuario logo"
+                  className="w-8 h-8 object-contain"
+                />
                 Ver Línea Work
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
